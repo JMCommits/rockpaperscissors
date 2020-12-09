@@ -1,0 +1,6 @@
+player clicks button
+that button passes its value to a func
+function checks to see who wins
+update score
+check total games
+if more than 5 pop up to declare winner and reset
