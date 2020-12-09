@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <h1>Rock Paper Scissors game in JS and HTML</h1>
+    </header>
+    <body>
+        <div class="menu">
+            <h2>How to play</h2>
+            <p>Click on the icon below to choose your options, and computer will choose as well, press play button to restart the score.</p>
+            <p id="round">ROUND 1</p>
+        </div>
+        <div class="options">
+            <div class="symbol"><img id="rock" src="https://image.shutterstock.com/image-photo/image-250nw-678870031.jpg"></img></div>
+            <div class="symbol"><img id="paper" src="https://cf.ltkcdn.net/origami/images/std/61394-400x300-Yellow_paper.jpg"></img></div>
+            <div class="symbol"><img id="scissors" src="https://image.freepik.com/free-photo/red-plastic-scissors-isolated-white-background_70287-4318.jpg"></img></div>
+        </div>
+        <div class="progress">
+            <div class="scoretext">
+                <p id="text"></p>
+            </div>
+            <div class="scoreboard">
+                <h3>Player Wins</h3>
+                <h3>Computer Wins</h3>
+                <p class="score" id="playerwins">0</p>
+                <p class="score" id="computerwins">0</p>
+            </div>
+        </div>
+    </body>
+    <script src="/script.js"></script>
+</html>

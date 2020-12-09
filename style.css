@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(255, 166, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.menu {
+    text-align: center;
+}
+
+#round {
+    font-size: 40px;
+    font-style: oblique;
+}
+
+.options {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.symbol {
+    height: 200px;
+    border: 4px dashed black;
+    overflow: hidden;
+}
+
+.symbol:hover {
+    border: 4px dashed rgb(0, 137, 228);
+    overflow: hidden;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+}
+
+img:hover {
+    transform: scale(1.1);
+
+}
+
+.scoretext {
+    height: 50px;
+    margin-bottom: 20px; 
+}
+
+#text {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.scoreboard {
+    width: min-content;
+    margin: auto;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    text-align: center; 
+}
+
+.score {
+    font-size: 50px;
+    position: relative;
+    bottom: 40px;
+}
